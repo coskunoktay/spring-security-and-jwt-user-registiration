@@ -6,13 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="testgit" />
+        <module name="spring-security-and-jwt-user-registiration" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-security-and-jwt-user-registiration" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="testgit" options="-parameters" />
+      <module name="spring-security-and-jwt-user-registiration" options="-parameters" />
     </option>
   </component>
 </project>
